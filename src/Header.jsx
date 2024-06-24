@@ -1,7 +1,8 @@
 function Header() {
   return (
-    <div>
-      Menu
+    <div className="header">
+      Brandon Heisler
+
     </div>
   )
 }

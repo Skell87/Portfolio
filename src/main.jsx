@@ -16,15 +16,17 @@ import ErrorPage from './ErrorPage'
 import Header from './Header'
 import Footer from './Footer'
 
-
+// siteBackground is the green background image for the SPA.
 function Layout() {
   return (
       <>
-        <Header />
-        <div id='page-content'>
-          <Outlet />
-        </div>
-        <Footer />
+        <section className='siteBackground'>
+          <Header />
+            <div id='page-content'>
+              <Outlet />
+            </div>
+          <Footer />
+        </section>
       </>
   )
 }
