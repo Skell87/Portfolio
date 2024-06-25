@@ -9,10 +9,11 @@ function App() {
         <div className="section-3-left">
           <h2 className="h2">Let me be your developer...</h2>
           <p className="p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
-            veritatis quibusdam, odio ipsum dolorem enim, adipisci velit
-            reprehenderit dignissimos, blanditiis omnis. Consequatur soluta
-            ipsam voluptates libero delectus ullam odit suscipit?
+            My name is Brandon, I'm a recent graduate of Awesome Inc.'s full
+            stack developer bootcamp. I enjoy developing projects in React and
+            Django Rest Framework, I'm a Veteran and an experienced Manager and
+            Project Developer. I am well versed in creative problem solving due
+            to my experience and curiosity.
           </p>
         </div>
         <div className="section-3-right">
@@ -26,12 +27,12 @@ function App() {
           <img className="packmule" src="./packmule2.jpg" />
         </div>
         <div className="section-2-right">
-          <h2 className="h2">Let me be your developer...</h2>
+          <h2 className="h2">User first, Mobile First.</h2>
           <p className="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            mollitia dolore ipsum necessitatibus suscipit eaque recusandae
-            corporis sed blanditiis pariatur maxime, odio hic, non veniam
-            nesciunt saepe iure ratione quo?
+            Everything should be designed with the end user in mind. In a world
+            of portable and constantly emerging tech, apps and programs should
+            be created to serve users in a simple and functional manner,
+            limiting blockers and enhancing overall quality of life.
           </p>
         </div>
       </div>
@@ -43,12 +44,10 @@ function App() {
           <img className="tile" src="./rrr.png" />
         </div>
         <div className="section-1-right">
-          <h2 className="h2-section-right">Let me be your developer...</h2>
+          <h2 className="h2-section-right">Growth and Development.</h2>
           <p className="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            mollitia dolore ipsum necessitatibus suscipit eaque recusandae
-            corporis sed blanditiis pariatur maxime, odio hic, non veniam
-            nesciunt saepe iure ratione quo?
+            Starting as a developer in april 2024, Ive come from zero experience
+            to developing useful apps and programs in the course of 16 weeks.
           </p>
         </div>
       </div>
