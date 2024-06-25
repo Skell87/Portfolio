@@ -1,10 +1,5 @@
 function Header() {
-  return (
-    <div className="header">
-      Brandon Heisler
-
-    </div>
-  )
+  return <div className="header">Brandon Heisler, Full Stack Developer.</div>;
 }
 
-export default Header
+export default Header;

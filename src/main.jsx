@@ -1,34 +1,32 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Outlet,
-} from 'react-router-dom'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 // project styles
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
-import About from './About'
-import App from './App'
-import ErrorPage from './ErrorPage'
-import Header from './Header'
-import Footer from './Footer'
+import About from "./About";
+import App from "./App";
+import ErrorPage from "./ErrorPage";
+import Header from "./Header";
+import Footer from "./Footer";
 
 // siteBackground is the green background image for the SPA.
 function Layout() {
   return (
-      <>
-        <section className='siteBackground'>
+    <>
+      <section className="siteBackground">
+        <div className="content-wrapper">
           <Header />
-            <div id='page-content'>
-              <Outlet />
-            </div>
+          <div id="page-content">
+            <Outlet />
+          </div>
           <Footer />
-        </section>
-      </>
-  )
+        </div>
+      </section>
+    </>
+  );
 }
 
 const router = createBrowserRouter([
@@ -37,18 +35,18 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <App />,
-        errorElement: <ErrorPage />
+        errorElement: <ErrorPage />,
       },
       {
-        path: '/about',
-        element: <About />
+        path: "/about",
+        element: <About />,
       },
-    ]
-  }
-])
+    ],
+  },
+]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
-)
+);
