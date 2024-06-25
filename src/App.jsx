@@ -9,10 +9,10 @@ function App() {
         <div className="section-3-left">
           <h2 className="h2">Let me be your developer...</h2>
           <p className="p">
-            Hi my name is Brandon Heisler. you want me to work for you so i can
-            earn a paycheck from you. you dont care about all this corporate
-            nonsense, you just think you do. thats what happens when youre
-            brainwashed.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+            veritatis quibusdam, odio ipsum dolorem enim, adipisci velit
+            reprehenderit dignissimos, blanditiis omnis. Consequatur soluta
+            ipsam voluptates libero delectus ullam odit suscipit?
           </p>
         </div>
         <div className="section-3-right">
@@ -28,10 +28,10 @@ function App() {
         <div className="section-2-right">
           <h2 className="h2">Let me be your developer...</h2>
           <p className="p">
-            Hi my name is Brandon Heisler. you want me to work for you so i can
-            earn a paycheck from you. you dont care about all this corporate
-            nonsense, you just think you do. thats what happens when youre
-            brainwashed.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            mollitia dolore ipsum necessitatibus suscipit eaque recusandae
+            corporis sed blanditiis pariatur maxime, odio hic, non veniam
+            nesciunt saepe iure ratione quo?
           </p>
         </div>
       </div>
