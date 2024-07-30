@@ -37,18 +37,12 @@ function App() {
         </div>
       </div>
       <div className="section-1">
-        <div className="section-1-left">
+        <h2 className="section-1-title">Projects</h2>
+        <div className="project-tiles">
           <img className="tile" src="./todo.png" />
           <img className="tile" src="./parlor.png" />
           <img className="tile" src="./tic.png" />
           <img className="tile" src="./rrr.png" />
-        </div>
-        <div className="section-1-right">
-          <h2 className="h2-section-right">Growth and Development.</h2>
-          <p className="p">
-            Starting as a developer in april 2024, Ive come from zero experience
-            to developing useful apps and programs in the course of 16 weeks.
-          </p>
         </div>
       </div>
     </div>
