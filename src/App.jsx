@@ -13,7 +13,7 @@ function App() {
             stack developer bootcamp. I enjoy developing projects in React and
             Django Rest Framework, I'm a Veteran and an experienced Manager and
             Project Developer. I am well versed in creative problem solving due
-            to my experience and curiosity.
+            to my experience and curiosity. ..
           </p>
         </div>
         <div className="section-3-right">
